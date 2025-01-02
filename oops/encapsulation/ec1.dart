@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class Ec {
   int? _id;
   String? name;
