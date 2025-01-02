@@ -15,5 +15,9 @@ void main() {
   camera.name = 'sony';
   camera.color = 'black';
   camera.megapixel = 60;
-  camera.display();
+   Camera camera1 = Camera();
+  camera1.name = 'redmi';
+  camera1.color = 'blue';
+  camera1.megapixel = 40;
+  camera1.display();
 }
