@@ -14,12 +14,12 @@ class Rectangle implements Area, Perimeter {
 
   @override
   void area() {
-    print("the area is ${length! * breadth!}");
+    print("the area is : ${length! * breadth!}");
   }
 
   @override
   void perimeter() {
-    print("the Perimeter is ${2 * (length! + breadth!)}");
+    print("the Perimeter is : ${2 * (length! + breadth!)}");
   }
 }
 
